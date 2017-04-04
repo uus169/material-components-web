@@ -44,6 +44,10 @@ cd material-components-web && npm i
 
 Each component requires the following items in order to be complete:
 
+- An **Engineering Outline Document**, which should be linked to in a comment on the GitHub issue
+  where we're tracking the component. This way, the core team can review and sign off on the
+  outline doc. Outline docs should be signed off on _before_ submitting a PR.
+  Please [copy this google doc template](https://docs.google.com/document/d/1Kybm7XJDTy0KUcuMaw5bzirQNBsDqCPCae8U_ag_a1k/edit?usp=sharing) in order to make your outline.
 - A **foundation class** which is integrated into actual components
 - A **component class** using vanilla JS + SCSS
 - A **README.md** in its subdir which contains developer documentation on the component, including usage.
